@@ -52,12 +52,40 @@ nav .active{
     background-color: black;
     color: white;
     border-radius: 0px;
+    width: 110px;
 }
 .form-control{
     background-color: #eeeeee;
+    border: 0;
+    border-bottom: 1px solid;
     border-radius: 0px;
-    border-bottom: 1px solid
- 
+    height: auto;
+}
+
+textarea.form-control {
+    height: 200px;
+}
+
+footer{
+    background-color: white;
+    margin: 50px 0px 0px 0px;
+}
+footer a{
+    color: black;
+    font-weight: bold;
+}
+    
+
+footer i{
+    font-size: 35px;
+    border: 2px solid;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 15px;
+    color: black;
 }
 
 

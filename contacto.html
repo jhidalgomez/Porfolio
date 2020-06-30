@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap">
-  <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900&display=swap">
-  <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
-  <link rel="stylesheet" href="css/estilos.css">
+  <head>
+    <title>Proyectos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link href="css/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="css/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script type="text/javascript" src="js/jquery-3.4.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
 </head>
-
 <body>
   <div class="container">
     <nav class="navbar navbar-expand-md">
@@ -47,48 +47,42 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-5 pb-5">
-            <h2>Para más detalles sobre mi
-              trabajo podés ver mi Linkedin,
-              descargar mi CV o mandarme
-              un mensaje.</h2>
+          <div class="col-sm-10 col-12">
+              <h2>Para más detalles sobre mi<br>
+                  trabajo podés ver mi Linkedin,<br>
+                  descargar mi CV o mandarme<br>
+                  un mensaje.
+              </h2>
           </div>
+      </div>
         </div>
         <div class="row">
-          <div class="col-12 col-sm-10">
-            <form action="" method="POST">
-              <div class="row">
-                <div class="col-sm-6 col-12 py-2">
-                  <input type="text" placeholder="NOMBRE" class="form-control">
-                </div>
-                <div class="col-sm-6 col-12 py-2">
-                  <input type="email" placeholder="CORREO" class="form-control">
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12 py-2">
-                  <input type="text" placeholder="ASUNTO" class="form-control">
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12 py-2">
-                  <textarea class="form-control" placeholder="MENSAJE"></textarea>
-                </div>
-              </div>
-              <div class="my-2" mx-auto>
-                <button type="submit" class="btn">ENVIAR</button>
-              </div>
-            </form>
+          <div class="col-sm-10 col-12">
+              <form action="" method="POST">
+                  <div class="row">
+                      <div class="col-sm-6 col-12 form-group">
+                              <input type="text" class="form-control" id="txtNombre" name="txtNombre" placeholder="NOMBRE" value="">
+                      </div>
+                      <div class="col-sm-6 col-12 form-group">
+                              <input type="email" id="txtCorreo" name="txtCorreo" class="form-control" placeholder="CORREO" value="">
+                      </div>
+                      <div class="col-12 form-group">
+                              <input type="text" class="form-control" id="txtAsunto" name="txtAsunto" placeholder="ASUNTO">
+                      </div>
+                      <div class="col-12 form-group">
+                              <textarea name="txtMensaje" id="txtMensaje" rows="7" class="form-control" placeholder="MENSAJE" required></textarea>
+                      </div>
+                  </div>
+                  <div class="row">
+                       <div class="col-12 text-center">
+                          <input type="submit" name="btnEnviar" value="ENVIAR" class="btn">
+                      </div>
+                  </div>
+              </form>
           </div>
-        </div>
       </div>
-
-  </div>
   </section>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://getbootstrap.com/docs/4.5/dist/js/bootstrap.bundle.min.js"></script>
+
   <footer>
     <div class="container">
       <div class="row py-5">
